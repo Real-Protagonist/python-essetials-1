@@ -15,3 +15,12 @@ my_list = [10, 8, 6, 4, 2]
 new_list = my_list[:3]
 
 print(new_list)
+
+# Omit the end 
+my_list = [10, 8, 6, 4, 2]
+new_list = my_list[2:]
+
+print(new_list)
+
+# OR
+print(my_list[3:len(my_list)])
